@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="630b8d06-d968-45d6-870c-1b85e1a7855a" name="Changes" comment="INitial commit" />
+    <list default="true" id="630b8d06-d968-45d6-870c-1b85e1a7855a" name="Changes" comment="INitial commit">
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +30,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maksym456&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maksym456/nest-music-player-app&quot;,
+    &quot;accountId&quot;: &quot;4bba17ad-f96a-4f63-97fa-1615ac51e97d&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.cache/JetBrains/WebStorm2025.1/javascript/typings/node/18.19.108/node_modules/@types/node/path.d.ts" root0="SKIP_INSPECTION" />
   </component>
@@ -38,6 +74,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
@@ -46,7 +83,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.19.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.108&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/maksym/nest-music-player-app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maksym/WebstormProjects/nest-music-player-app/client&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +95,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/public" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +125,28 @@
       <workItem from="1748617134548" duration="4421000" />
       <workItem from="1748624361748" duration="6040000" />
       <workItem from="1748638072040" duration="502000" />
+      <workItem from="1748638609245" duration="7224000" />
+      <workItem from="1748646454340" duration="12000" />
+      <workItem from="1748646928355" duration="1442000" />
+      <workItem from="1748853109846" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="INitial commit">
+      <option name="closed" value="true" />
+      <created>1748638901295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748638901295</updated>
+    </task>
+    <task id="LOCAL-00002" summary="INitial commit">
+      <option name="closed" value="true" />
+      <created>1748639056814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748639056814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Logowanie – Nest Music Player</title>
+  <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+  />
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-light">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Nest&nbsp;Music&nbsp;Player</a>
+  </div>
+</nav>
+
+<!-- Formularz logowania -->
+<main class="flex-grow-1 d-flex align-items-center justify-content-center py-5">
+  <div class="card shadow-sm" style="max-width: 420px; width: 100%">
+    <div class="card-body p-4">
+      <h2 class="mb-4 text-center">Logowanie</h2>
+      <form id="loginForm">
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Hasło</label>
+          <input type="password" class="form-control" id="password" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Zaloguj się</button>
+      </form>
+
+      <p class="mt-3 text-center small">
+        Nie masz konta?
+        <a href="register.html">Zarejestruj się</a>
+      </p>
+    </div>
+  </div>
+</main>
+
+<!-- Stopka -->
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+  <small>&copy; 2025 Nest Music Player</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="./src/login.js"></script>
+</body>
+</html>

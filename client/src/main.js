@@ -1,25 +1,41 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { auth } from './firebase.js';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+console.log('🔥 main.js loaded');
 
-setupCounter(document.querySelector('#counter'))
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('📦 DOMContentLoaded');
+
+    const authArea = document.getElementById('auth-area');
+
+    if (!authArea) {
+        console.warn('⚠️ Element #auth-area nie został znaleziony w DOM');
+        return;
+    }
+
+    console.log('📡 Ustawiam onAuthStateChanged...');
+    onAuthStateChanged(auth, user => {
+        console.log('✅ onAuthStateChanged fired');
+
+        if (user) {
+            console.log('🙋‍♂️ User zalogowany:', user.email);
+            authArea.innerHTML = `
+        <span class="text-white me-2">Zalogowano jako: <strong>${user.email}</strong></span>
+        <button class="btn btn-outline-light btn-sm" id="logout-btn">Wyloguj</button>
+      `;
+            document.getElementById('logout-btn').addEventListener('click', () => {
+                console.log('🚪 Wylogowywanie...');
+                signOut(auth).then(() => {
+                    console.log('✅ Wylogowano, przekierowuję...');
+                    window.location.href = 'login.html';
+                });
+            });
+        } else {
+            console.log('👤 Brak użytkownika – pokazuję przyciski logowania/rejestracji');
+            authArea.innerHTML = `
+        <a class="btn btn-outline-light btn-sm" href="../login.html">Logowanie</a>
+        <a class="btn btn-primary btn-sm" href="../register.html">Rejestracja</a>
+      `;
+        }
+    });
+});
