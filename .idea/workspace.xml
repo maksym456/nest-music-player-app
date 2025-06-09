@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630b8d06-d968-45d6-870c-1b85e1a7855a" name="Changes" comment="INitial commit">
-      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/favorites/favorites.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/favorites/favorites.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/firebase-admin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/secure/secure.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/src/secure/secure.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
         <option value="tsconfig.json" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +51,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend-api" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -61,7 +69,7 @@
     <setting file="file://$USER_HOME$/.cache/JetBrains/WebStorm2025.1/javascript/typings/node/18.19.108/node_modules/@types/node/path.d.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -71,47 +79,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.19.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.108&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/maksym/WebstormProjects/nest-music-player-app/client&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/maksym/WebstormProjects/nest-music-player-app/server/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.main.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "18.19.1",
+    "javascript.nodejs.core.library.typings.version": "18.19.108",
+    "last_opened_file_path": "/home/maksym/WebstormProjects/nest-music-player-app/client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "C:\\Users\\wilkm\\WebstormProjects\\nest-music-player-app\\backend-api\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wilkm\WebstormProjects\nest-music-player-app\backend-api" />
+      <recent name="C:\Users\wilkm\WebstormProjects\nest-music-player-app\backend-api\src" />
+      <recent name="C:\Users\wilkm\WebstormProjects\nest-music-player-app\backend-api\src\secure" />
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/client/public" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="630b8d06-d968-45d6-870c-1b85e1a7855a" name="Changes" comment="" />
